@@ -1,0 +1,1 @@
+for i in *3PRE*; do qprep -y $i ; done
