@@ -1,0 +1,1 @@
+$ for i in *[0-9].mol2; do makeInput.py -m m06 -b H C O N P 6+31G* -b Ru LANL2DZ -ecp Ru LANL2DZ -q 1 -mult 1 -ed gd3 -of gaussian -o ${i%.mol2}.com $i ; done
