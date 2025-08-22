@@ -1,1 +1,1 @@
-for i in *[1-9].mae; do $SCHRODINGER/utilities/structconvert $i ${i%.mae}.mol2 ; done 
+for i in *[0-9].mae; do $SCHRODINGER/utilities/structconvert $i ${i%.mae}.mol2 ; done 
