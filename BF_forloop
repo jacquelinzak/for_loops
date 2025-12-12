@@ -1,0 +1,1 @@
+sed -i 's|#n m06/genecp EmpiricalDispersion=(GD3)| #n m06/genecp Opt=(ModRedundant) EmpiricalDispersion=(GD3)|g' *com*
