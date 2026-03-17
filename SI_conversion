@@ -1,0 +1,1 @@
+for i in *.log* ; do makeInput.py -if log $i -up -o ${i%.log}.xyz ; done
