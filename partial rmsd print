@@ -1,0 +1,1 @@
+for i in *xyz* ; do grep -A0 "rm" $i ; done
